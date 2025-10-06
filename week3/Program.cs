@@ -4,6 +4,14 @@
     string Author;
     string ISBN;
 
+
+    public Book(string bookTitle, string bookAuthor, string bookISBN)
+    {
+        Title = bookTitle;
+        Author = bookAuthor;
+        ISBN = bookISBN;
+    }
+
     void DisplayInfo()
     {
         Console.WriteLine($"Book title: {Title}");
